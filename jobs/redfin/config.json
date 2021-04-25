@@ -1,0 +1,160 @@
+[
+    {
+        "name":"current_status",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.HomeBottomStats > span.status-container > span > span.value"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"cost_per_month",
+        "selection":"css",
+        "search":["#content > div:nth-child(43) > div > div > section > div > div.CalculatorSummary > div.sectionText > p"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"data_source",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.HomeBottomStats > span.source-container > span > span.value"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"name",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > h1 > span > span.adr > span.street-address"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"region",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > h1 > span > span.adr > span.citystatezip > span.region"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"estimate",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > div > div.info-block.avm > div"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"last_sold_price",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > div > div.info-block.price > div"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"beds",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > div > div:nth-child(2) > div"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"baths",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > div > div:nth-child(3) > div"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"total_sf",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > div > div.info-block.sqft > span > span.statsValue"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"sfp",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > div > div.info-block.sqft > span > div"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"market_status",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.HomeBottomStats > span.status-container > span > span.value > div > span"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"source",
+        "selection":"css",
+        "search":["#marketingRemarks-preview > div.sectionContentContainer.expanded > div > div.agent-info-section > div.listingInfoSection.font-color-gray-dark > div.listingSource > div"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"city",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > h1 > span > span.adr > span.citystatezip > span.locality"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"state",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > h1 > span > span.adr > span.citystatezip > span.region"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"zip",
+        "selection":"css",
+        "search":["#overview-scroll > div > div > div.HomeInfo.inline-block > div.top-stats > h1 > span > span.adr > span.citystatezip > span.postal-code"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"rental_estimate",
+        "selection":"css",
+        "search":["#rental-estimate-scroll > div > div > div > div.value-block.font-size-medium > span"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"market_trend_change_value",
+        "selection":"css",
+        "search":["#rental-estimate-scroll > div > div > div > div.RentalEstimateMarketTrends > div.regionStats > div.trends-block > div"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"market_trend_median_value",
+        "selection":"css",
+        "search":["#rental-estimate-scroll > div > div > div > div.RentalEstimateMarketTrends > div.regionStats > div.median-block > div"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"market_trend_since",
+        "selection":"css",
+        "search":["#rental-estimate-scroll > div > div > div > div.RentalEstimateMarketTrends > div.regionStats > div.trends-block > span"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"land_value",
+        "selection":"css",
+        "search":["#public-records-scroll > div > div > div.public-records-taxes > div.taxable-value > div > div > table > tbody > tr:nth-child(1) > td.value"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"compete_score",
+        "selection":"css",
+        "search":["#neighborhood-info-scroll > div > div.CompeteScore.region-content-section > div.scoreTM > div.score.somewhat"],
+        "first":true,
+        "attribute":"text"
+    }
+
+]
+
+
+

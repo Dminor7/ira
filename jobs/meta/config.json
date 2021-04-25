@@ -1,0 +1,658 @@
+[
+    {
+        "name": "description",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='description']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "twitter:card",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='twitter:card']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "twitter:site",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='twitter:site']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "twitter:site:id",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='twitter:site:id']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "twitter:creator",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='twitter:creator']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "twitter:creator:id",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='twitter:creator:id']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "twitter:description",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='twitter:description']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "twitter:title",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='twitter:title']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "twitter:image",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='twitter:image']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "twitter:image:alt",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='twitter:image:alt']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:title",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:title']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:image",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:image']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:description",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:description']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:title",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:title']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:type",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:type']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:url",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:url']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:image",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:image']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:site_name",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:site_name']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:description",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:description']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "fb:page_id",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='fb:page_id']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:email",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:email']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:phone_number",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:phone_number']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:fax_number",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:fax_number']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:latitude",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:latitude']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:longitude",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:longitude']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:street-address",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:street-address']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:locality",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:locality']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:region",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:region']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:postal-code",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:postal-code']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:country-name",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='og:country-name']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:type",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:type']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:points",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:points']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:video",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:video']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:video:height",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:video:height']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:video:width",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:video:width']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:video:type",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:video:type']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:video",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:video']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:video:type",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:video:type']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:video",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:video']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:video:type",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:video:type']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:audio",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:audio']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:audio:title",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:audio:title']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:audio:artist",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:audio:artist']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:audio:album",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:audio:album']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "og:audio:type",
+        "selection": "xpath",
+        "search": [
+            "//meta[@property='og:audio:type']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "keywords",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='keywords']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "description",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='description']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "subject",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='subject']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "copyright'content='company name",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='copyright'content='company name'>"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "language",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='language']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "robots",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='robots']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "revised",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='revised']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "abstract",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='abstract']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "topic",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='topic']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "summary",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='summary']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "Classification",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='Classification']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "author",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='author']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "designer",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='designer']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "copyright",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='copyright']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "reply-to",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='reply-to']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "owner",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='owner']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "url",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='url']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "identifier-URL",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='identifier-URL']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "directory",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='directory']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "category",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='category']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "coverage",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='coverage']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "distribution",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='distribution']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "rating",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='rating']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "revisit-after",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='revisit-after']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "Expires",
+        "selection": "xpath",
+        "search": [
+            "//meta[@http-equiv='Expires']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "Pragma",
+        "selection": "xpath",
+        "search": [
+            "//meta[@http-equiv='Pragma']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },
+    {
+        "name": "Cache-Control",
+        "selection": "xpath",
+        "search": [
+            "//meta[@http-equiv='Cache-Control']"
+        ],
+        "first": true,
+        "attribute": "content"
+    },{
+        "name": "article:modified_time",
+        "selection": "xpath",
+        "search": [
+            "//meta[@name='article:modified_time']"
+        ],
+        "first": true,
+        "attribute": "content"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "name":"total_pages",
+        "selection":"find",
+        "search":["<div id=\"result-stats\">{} results"]
+    }
+]
+

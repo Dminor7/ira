@@ -1,0 +1,49 @@
+[   {
+        "name":"name",
+        "selection":"css",
+        "search": ["#wrap > div.main-content-wrap.main-content-wrap--full > div > div.lemon--div__373c0__1mboc.margin-t3__373c0__1l90z.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div.lemon--div__373c0__1mboc.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div:nth-child(1) > div > div.lemon--div__373c0__1mboc.arrange-unit__373c0__o3tjT.arrange-unit-grid-column--8__373c0__2dUx_.padding-r6__373c0__2Qlev.border-color--default__373c0__3-ifU > div.lemon--div__373c0__1mboc.margin-b3__373c0__q1DuY.border-color--default__373c0__3-ifU > div > div > div:nth-child(1) > h1"],
+        "first":true,
+        "attribute":"text"
+    },{
+        "name":"categories",
+        "selection":"css",
+        "search":["#wrap > div.main-content-wrap.main-content-wrap--full > div > div.lemon--div__373c0__1mboc.margin-t3__373c0__1l90z.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div.lemon--div__373c0__1mboc.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div:nth-child(1) > div > div.lemon--div__373c0__1mboc.arrange-unit__373c0__o3tjT.arrange-unit-grid-column--8__373c0__2dUx_.padding-r6__373c0__2Qlev.border-color--default__373c0__3-ifU > div.lemon--div__373c0__1mboc.margin-b3__373c0__q1DuY.border-color--default__373c0__3-ifU > div > div > span > span > a"],
+        "first":false,
+        "attribute":"text"
+    },{
+        "name":"is_verified",
+        "selection":"css",
+        "search":["#wrap > div.main-content-wrap.main-content-wrap--full > div > div.lemon--div__373c0__1mboc.margin-t3__373c0__1l90z.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div.lemon--div__373c0__1mboc.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div:nth-child(1) > div > div.lemon--div__373c0__1mboc.arrange-unit__373c0__o3tjT.arrange-unit-grid-column--8__373c0__2dUx_.padding-r6__373c0__2Qlev.border-color--default__373c0__3-ifU > div.lemon--div__373c0__1mboc.margin-b3__373c0__q1DuY.border-color--default__373c0__3-ifU > div > div > div:nth-child(1) > div > span > div> span"],
+        "first":true,
+        "attribute":"text",
+        "extract_from_text":"Unclaimed|Claimed"
+    },{
+        "name":"website",
+        "selection":"css",
+        "search":["#wrap > div.main-content-wrap.main-content-wrap--full > div > div.lemon--div__373c0__1mboc.margin-t3__373c0__1l90z.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div.lemon--div__373c0__1mboc.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div:nth-child(1) > div > div.lemon--div__373c0__1mboc.stickySidebar--fullHeight__373c0__1szWY.arrange-unit__373c0__o3tjT.arrange-unit-grid-column--4__373c0__33Wpc.border-color--default__373c0__3-ifU > div > div > section > div > div:nth-child(1) > div > div.lemon--div__373c0__1mboc.arrange-unit__373c0__o3tjT.arrange-unit-fill__373c0__3Sfw1.border-color--default__373c0__3-ifU > p:nth-child(2) > a"],
+        "first":true,
+        "attribute":"href",
+        "extract_from_href":"?url"
+    },{
+        "name":"total_reviews",
+        "selection":"css",
+        "search":["#wrap > div.main-content-wrap.main-content-wrap--full > div > div.lemon--div__373c0__1mboc.margin-t3__373c0__1l90z.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div.lemon--div__373c0__1mboc.margin-b6__373c0__2Azj6.border-color--default__373c0__3-ifU > div > div > div:nth-child(1) > div > div.lemon--div__373c0__1mboc.arrange-unit__373c0__o3tjT.arrange-unit-grid-column--8__373c0__2dUx_.padding-r6__373c0__2Qlev.border-color--default__373c0__3-ifU > div.lemon--div__373c0__1mboc.margin-b3__373c0__q1DuY.border-color--default__373c0__3-ifU > div > div > div.lemon--div__373c0__1mboc.arrange__373c0__2C9bH.gutter-1-5__373c0__2vL-3.vertical-align-middle__373c0__1SDTo.margin-b1__373c0__1khoT.border-color--default__373c0__3-ifU > div.lemon--div__373c0__1mboc.arrange-unit__373c0__o3tjT.border-color--default__373c0__3-ifU.nowrap__373c0__35McF > p"],
+        "first":true,
+        "attribute":"text",
+        "extract_from_text":"-?\\d+\\.?\\d*"
+    },
+    {
+        "name":"phone",
+        "selection":"find",
+        "search":["\"phoneNumber\":\"{}\""],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"amenities",
+        "selection":"xpath",
+        "search":["//h4[contains(text(), 'Amenities and More')]//ancestor::section//span[contains(@class,'text-color--normal__373c0__3xep9')]"],
+        "first":false,
+        "attribute":"text"
+    }
+]

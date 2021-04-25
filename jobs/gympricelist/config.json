@@ -1,0 +1,28 @@
+[
+    {
+        "name":"price_or_offer",
+        "selection":"xpath",
+        "search":["//body//*"],
+        "first":true,
+        "attribute":"text",
+        "extract_from_text":".*\\$.*|.*%.*"
+    },
+    {
+        "name":"gym_tables",
+        "selection":"tables"
+    },
+    {
+        "name":"headline",
+        "selection":"xpath",
+        "search":["//h2[@itemprop='headline']"],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"links",
+        "selection":"xpath",
+        "search":["//a[not(contains(@href,'gympricelist')) and (contains(@href,'://'))]"],
+        "first":false,
+        "attribute":"href"
+    }
+]

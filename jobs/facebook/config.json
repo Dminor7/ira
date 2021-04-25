@@ -1,0 +1,123 @@
+[
+    {
+        "name":"name",
+        "selection":"css",
+        "search":[
+            "span._50f7",
+            "#seo_h1_tag > a > span"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"about_data",
+        "selection":"css",
+        "search":[
+            "#seo_h1_tag > div"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"likes",
+        "selection":"css",
+        "search":[
+            "div._2pi9._2pi2 div.clearfix._ikh div._4bl9 div",
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div:nth-child(2) > div > div._4-u2._6590._3xaf._4-u8 > div:nth-child(2) > div > div._4bl9 > div"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"followers",
+        "selection":"css",
+        "search":[
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div:nth-child(2) > div > div._4-u2._6590._3xaf._4-u8 > div:nth-child(3) > div > div._4bl9 > div"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"checkins",
+        "selection":"css",
+        "search":[
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div:nth-child(2) > div > div._4-u2._6590._3xaf._4-u8 > div:nth-child(4) > div > div._4bl9 > div"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"address",
+        "selection":"css",
+        "search":[
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div:nth-child(2) > div > div._4-u2._u9q._3xaf._4-u8 > div:nth-child(3) > div > div._4bl9 > div"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"phone",
+        "selection":"css",
+        "search":[
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div:nth-child(2) > div > div._4-u2._u9q._3xaf._4-u8 > div:nth-child(4) > div > div._4bl9 > div",
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div:nth-child(2) > div > div._4-u2._u9q._3xaf._4-u8 > div:nth-child(2) > div > div._4bl9 > div"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"website",
+        "selection":"xpath",
+        "search":[
+            "//a[@data-ft]"
+        ],
+        "first":true,
+        "attribute":"href",
+        "extract_from_href":"?u"
+        
+    },
+    {
+        "name":"review",
+        "selection":"xpath",
+        "search":["//div[contains(@class,'uiStars')]//parent::a"],
+        "first":true,
+        "attribute":"text",
+        "extract_from_text":"\\n.*"
+    },
+    {
+        "name":"rating",
+        "selection":"css",
+        "search": [
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div._4-u2._1c02._3-96._4-u8 > div > div._1b__._3koq > a > span",
+            "span._331d",
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div._4-u2._3-96._4-u8 > div > a > div > div._3td8 > div"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"page_created_since",
+        "selection":"css",
+        "search":[
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div:nth-child(2) > div > div._4-u2._3xaf._7jo_._4-u8 > div._3qn7._61-0._2fyi._3qnf._2pi9._3-95 > span"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"total_people_rated",
+        "selection":"css",
+        "search":[
+            "#PagesProfileHomeSecondaryColumnPagelet > div > div._4-u2._3-96._4-u8 > div > a > div > div._2w09 > div > span._2w0b"
+        ],
+        "first":true,
+        "attribute":"text"
+    },
+    {
+        "name":"categories",
+        "selection":"xpath",
+        "search":["//a[contains(@href,'/search/?bqf')]"],
+        "first":false,
+        "attribute":"text"
+    }
+]

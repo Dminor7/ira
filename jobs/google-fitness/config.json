@@ -1,0 +1,71 @@
+[
+    {
+        "name": "name",
+        "selection": "css",
+        "search": ["h2[data-local-attribute='d3bn']"],
+        "first": true,
+        "attribute": "text"
+    },
+    {
+        "name": "address",
+        "selection": "css",
+        "search": ["span.LrzXr"],
+        "first": true,
+        "attribute": "text"
+    },
+    {
+        "name": "reviews",
+        "selection": "css",
+        "search": ["span.hqzQac > span > a > span"],
+        "first": true,
+        "attribute": "text"
+    },
+    {
+        "name": "ratings",
+        "selection": "css",
+        "search": ["span.Aq14fc"],
+        "first": true,
+        "attribute": "text"
+    },
+    {
+        "name": "links",
+        "selection": "xpath",
+        "search": ["//*[@class='rc']/div/a"],
+        "first": false,
+        "attribute": "href"
+    },
+    {
+        "name": "industry",
+        "selection": "css",
+        "search": ["span.YhemCb"],
+        "first": true,
+        "attribute": "text"
+    },
+    {
+        "name": "title",
+        "selection": "css",
+        "first": false,
+        "search": ["h3.LC20lb.DKV0Md"],
+        "attribute": "text"
+    },
+    {
+        "name": "cite",
+        "selection": "css",
+        "first": false,
+        "search": ["div.TbwUpd.NJjxre"],
+        "attribute": "text"
+    },
+    {
+        "name": "description",
+        "selection": "css",
+        "first": false,
+        "search": ["span.aCOpRe"],
+        "attribute": "text"
+    },
+    {
+        "name": "g_review",
+        "selection": "css",
+        "search": ["div.fG8Fp.uo4vr"],
+        "attribute": "text"
+    }
+]

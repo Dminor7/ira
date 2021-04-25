@@ -1,0 +1,9 @@
+[
+    {
+        "name":"offers",
+        "selection":"xpath",
+        "search":["//div[@class=\"sc-AxjAm fRQtxW\"]/div[contains(@class,\"sc-AxjAm\")]"],
+        "first":false,
+        "attribute":"text"
+    }
+]

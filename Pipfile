@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+xmlutils = "*"
+
+[packages]
+requests-html = "*"
+pandas = "*"
+demjson = "*"
+html5lib = "*"
+bs4 = "*"
+fake-headers = "*"
+tldextract = "*"
+price-parser = "*"
+requests-ratelimit-adapter = "*"
+free-proxy = "*"
+jsonstreams = "*"
+parslepy = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true

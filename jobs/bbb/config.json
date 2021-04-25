@@ -1,0 +1,7 @@
+[
+   {
+       "name":"data",
+       "selection":"regex",
+       "search":["<script>window.__PRELOADED_STATE__ = (.*);</script>"]
+   }
+]
